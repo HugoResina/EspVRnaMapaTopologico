@@ -70,7 +70,8 @@ function keyPressed() {
 }
 
 function placeSensor() {
-  circle(mouseX, mouseY, 5);
+  fill(255,0,0)
+  circle(mouseX, mouseY, 10);
 }
 
 function create() {
