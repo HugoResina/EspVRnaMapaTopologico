@@ -14,14 +14,10 @@ function preload(){
 
 function setup() {
   createCanvas(1920,1080);
-  console.log(scale)
+
 
   image(img,0,0);
-  let button = createButton('Save Image');
  
-  button.position(100,100);
-
-  button.mousePressed(SaveImg)
 
 }
 
@@ -31,6 +27,9 @@ function SaveImg(){
 function keyPressed(){
  if(key == 'd'){
    setup()
+ }
+ else if(key == 's'){
+     SaveImg()
  }
 }
 
