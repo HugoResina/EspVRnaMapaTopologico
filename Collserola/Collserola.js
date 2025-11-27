@@ -135,6 +135,7 @@ function moveSelected(){
     y = mouseY
     selectedPoint.x = x
     selectedPoint.y = y
+    drawPoints();
  }
 }
 function SaveImg() {
