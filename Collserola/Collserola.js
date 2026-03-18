@@ -47,12 +47,14 @@ class Point {
 
 
 function preload() {
-  img = loadImage('Fotos/FotoMapa2.png');
-  scale = 1920 / 13.8;
+  img = loadImage('Fotos/FotoMapa3.png');
+  scale = 3367/8.75
+  //scale = 1920 / 13.8;
+
 }
 
 function setup() {
-  createCanvas(1920, 1080);
+  createCanvas(img.width, img.height);
   image(img, 0, 0);
 
   input = createInput("250");
